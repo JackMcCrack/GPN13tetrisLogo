@@ -1,6 +1,6 @@
 var canvas, ctx;
-var blocksize = 33;
-var bordersize = 0;
+var blocksize = 14;
+var bordersize = 2;
 var backgroundColor = "black";
 var fieldWidth = 80;
 var fieldHeight = 15;
@@ -21,13 +21,13 @@ var pieces = [
 // O,L,J,T,I,Z,S
 var col = [ "o", "l", "j", "t", "i", "z", "s" ];
 var sources = {
-	o:  "/img/Tetris_o_block.png",
-	l:  "/img/Tetris_l_block.png",
-	j:   "/img/Tetris_j_block.png",
-	t:   "/img/Tetris_t_block.png",
-	i:   "/img/Tetris_i_block.png",
-	z:   "/img/Tetris_z_block.png",
-	s:   "/img/Tetris_s_block.png"
+	o:   "/img/Tetris_o_block14x14.png",
+	l:   "/img/Tetris_l_block14x14.png",
+	j:   "/img/Tetris_j_block14x14.png",
+	t:   "/img/Tetris_t_block14x14.png",
+	i:   "/img/Tetris_i_block14x14.png",
+	z:   "/img/Tetris_z_block14x14.png",
+	s:   "/img/Tetris_s_block14x14.png"
 };
 var images = {};
 
